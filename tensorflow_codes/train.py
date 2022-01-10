@@ -7,7 +7,7 @@ from tqdm import tqdm
 import glob, ops, sys
 import numpy as np
 import random
-from network_1stain import _YCbCr2RGB, _normalize, sobelFilter
+from network import _YCbCr2RGB, _normalize, sobelFilter
 
 def rgb2ycbcr(image):
     image_temp = image
